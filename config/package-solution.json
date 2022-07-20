@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "voicerecorder-client-side-solution",
+    "id": "7d2bb14d-db14-4b23-ada3-a09d8c6d4b83",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "voicerecorder description"
+      },
+      "longDescription": {
+        "default": "voicerecorder description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "voicerecorder Feature",
+        "description": "The feature that activates elements of the voicerecorder solution.",
+        "id": "beb5c514-b5a8-4c01-93c6-65bdcdf34e0d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/voicerecorder.sppkg"
+  }
+}

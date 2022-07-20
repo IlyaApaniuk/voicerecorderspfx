@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "voice-recorder-po-c-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/voiceRecorderPoC/VoiceRecorderPoCWebPart.js",
+          "manifest": "./src/webparts/voiceRecorderPoC/VoiceRecorderPoCWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "VoiceRecorderPoCWebPartStrings": "lib/webparts/voiceRecorderPoC/loc/{locale}.js"
+  }
+}
